@@ -29,13 +29,10 @@
 #include "MotorWheels.h"
 
 // Controller module
-#include "MotorControllers.h"
+#include "../util/PIDControllers.h"
 
 // PWM
 #include "PWMFunctions.h"
-
-// RobotHSM
-#include "RobotHSM.h"
 
 /*----------------------------- Module Defines ----------------------------*/
 // Debugging define -- set to TRUE if using debugging printouts

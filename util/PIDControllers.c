@@ -1,12 +1,12 @@
 /****************************************************************************
  Module
-   MotorControllers.c
+   PIDControllers.c
 
  Revision
    1.0.1
 
  Description
-   A library of Utility Functions for Controlling Motors
+   A library of Utility Functions for utilizing PID controllers.
 
    Includes support for up to 4 PID Controllers, using WTIMERS0A/B-1A/B; one for each controller
    Each controller can be initialized and configured independently to include P/I/D
@@ -17,7 +17,7 @@
 
 /*----------------------------- Include Files -----------------------------*/
 // This file
-#include "MotorControllers.h"
+#include "PIDControllers.h"
 
 // Utility functions (including ring buffer)
 #include "UtilityFunctions.h"

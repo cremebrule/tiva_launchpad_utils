@@ -1,11 +1,11 @@
 /****************************************************************************
 
-  Header file for MotorControllers.c
+  Header file for PIDControllers.c
 
 ****************************************************************************/
 
-#ifndef MotorControllers_H
-#define MotorControllers_H
+#ifndef PIDControllers_H
+#define PIDControllers_H
 
 #include <stdint.h>
 #include <stdbool.h>
@@ -27,5 +27,5 @@ void UpdateControllerSetpoint(uint8_t ControllerNum, int32_t Setpoint, bool Rese
 void UpdateControllerGain(uint8_t ControllerNum, float Gain, ControllerGain_t GainType);
 void ResetController(uint8_t ControllerNum);
 
-#endif /* MotorControllers_H */
+#endif /* PIDControllers_H */
 
